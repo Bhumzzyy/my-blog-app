@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contactus.css";
+import "./ContactUs.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const ContactUs = () => (
