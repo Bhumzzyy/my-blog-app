@@ -3,8 +3,8 @@ import HomePage from "./components/HomePage";
 import BlogPage from "./components/BlogPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import AboutUs from "./components/AboutUs"; // ✅ correct
-import ContactUs from "./components/Contactus";
+import AboutUs from "./components/AboutUs"; 
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
