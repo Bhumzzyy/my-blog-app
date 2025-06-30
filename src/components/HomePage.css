@@ -1,0 +1,123 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-container {
+  max-width: 700px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 40px;
+  background-color: #fdf6f0;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(12, 1, 0, 0.314);
+   padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.home-button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.home-button:hover {
+  background-color: #e85c50;
+} */
+
+
+
+
+
+.home-container {
+  max-width: 950px;              /* Increased width */
+  margin: 110px auto 90px auto;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fdf6f0;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  gap: 12px;
+}
+
+.carousel-img {
+  width: 480px;                  /* Wider image */
+  height: 260px;                 /* Taller image */
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(255, 111, 97, 0.12);
+  border: 2px solid #ff6f61;
+  background: #fff;
+}
+
+.carousel-btn {
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-btn:hover {
+  background: #e85c50;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.home-button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.home-button:hover {
+  background-color: #e85c50;
+}

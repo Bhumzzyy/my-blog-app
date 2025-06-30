@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blog-container {
+  max-width: 900px;
+  margin: 110px auto 90px auto; /* top: 110px, bottom: 90px, left/right: auto */
+  padding: 30px;
+  background: #fdf6f0;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(12, 1, 0, 0.314);
+}
+
+.blog-title {
+  text-align: center;
+  color: #2c3e50;                /* matches header/footer */
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.blog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.blog-form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ff6f61;     /* accent color */
+  border-radius: 10px;
+  background: #fff;
+  color: #2c3e50;
+}
+
+.blog-form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ff6f61;     /* accent color */
+  border-radius: 10px;
+  height: 100px;
+  background: #fff;
+  color: #2c3e50;
+}
+
+.blog-form button {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #ff6f61;     /* accent color */
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: 600;
+}
+
+.blog-form button:hover {
+  background-color: #e85c50;     /* hover accent */
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #ff6f61;     /* accent border */
+  box-shadow: 0 4px 10px rgba(255, 111, 97, 0.05);
+}
+
+.blog-card h3 {
+  color: #2c3e50;                /* matches header/footer */
+  margin-bottom: 10px;
+}
+
+.blog-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.edit-btn {
+  background-color: #2c3e50;     /* dark blue for edit */
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #ff6f61;     /* accent on hover */
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #e85c50;     /* accent hover color */
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #ff6f61;     /* accent color */
+  color: #fff;
+}

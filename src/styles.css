@@ -1,0 +1,120 @@
+/* styles.css */
+/* styles.css */
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f3f6;
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.welcome-section button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-section button:hover {
+  background-color: #0056b3;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.blog-page {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.post-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #0056b3;
+}
+
+.posts-container {
+  margin-top: 40px;
+}
+
+.post-card {
+  background: #fafafa;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.post-card h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.post-card p {
+  margin: 10px 0;
+}
+
+.post-card button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.post-card .delete {
+  background-color: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
